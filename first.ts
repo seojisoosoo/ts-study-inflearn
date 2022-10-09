@@ -35,3 +35,6 @@ let aa=123;
 aa='hello' as unknown as number;
 //강제로 타입 변환
 
+const head=document.querySelector("#head")!;
+//!는 null, undefined를 막아주는 방법. 추천하지는 않는다.
+//만약, id이름이 바뀌거나한다면 큰 문제 발생...
