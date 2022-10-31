@@ -1,3 +1,4 @@
+//week1
 const a= '5';
 const b = 5;
 const c=true;
@@ -102,3 +103,4 @@ type CC=AA&BB
 const ab:AABB={name:"jisoo"}
 const abc:CC={name:"jisoo", age:24}
 // 더 구체적인 게 좁은 타입
+
